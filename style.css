@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: aquamarine;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: aqua;
+    border-radius: 5px;
+  }
+  button:hover{
+    background-color: rgb(6, 19, 157);
+    color: white;
+  }
+  #product{
+    background-color: rgb(209, 220, 217);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  #quantity{
+    background-color: rgb(209, 220, 217);
+    width: 100px;
+    height: 33px;
+    font-size: 16px;
+    border-radius: 5px;
+  }

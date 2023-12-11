@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora de Compra</title>
+</head>
+<body>
+
+  <h1>Calculadora de Compra</h1>
+
+  <label for="product">Escolha um produto:</label>
+  <select id="product">
+    <option value="p1">Produto 1</option>
+    <option value="p2">Produto 2</option>
+    <option value="p3">Produto 3</option>
+  </select>
+
+  <label for="quantity">Quantidade:</label>
+  <input type="number" id="quantity" min="1" value="1">
+
+  <button onclick="calculateTotal()">Adicionar ao Carrinho</button>
+
+  <h2>Resultado:</h2>
+  <p id="result"></p>
+
+  
+
+</body>
+
+<script src="lista.js"></script>
+</html>
